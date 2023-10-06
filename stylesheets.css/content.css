@@ -1,0 +1,39 @@
+.item{
+    width: 50px; /* ширина*/
+    height: 50px; /* высота */
+    background-color:blue; /* цвет фона */
+    color:azure; /* цвет текста */
+    text-align: center; /* расположение текста */
+    line-height: 50px;  /* высота строки */
+    margin: 10px; /* внешний отступ */
+
+}
+
+.container{
+    display: flex; /* положение элементов в контейнере в строку */
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between; /* элементы в контейнере распределены по ширине */
+}
+
+.container3{
+    display: flex;
+    justify-content: flex-end;  /* элементы в контейнере распределены справа скраю */
+}
+
+.container4{
+    display: flex;
+    justify-content: center;  /* элементы в контейнере распределены по центру */
+}
+
+.mainer{
+    width: 100%; /* ширина контейнера */
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
